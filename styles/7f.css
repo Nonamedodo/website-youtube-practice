@@ -1,0 +1,33 @@
+p {
+  font-family : arial;
+  font-size : 15px;
+  margin-top : 0px;
+  margin-bottom : 0px;
+}
+
+.email {
+  margin-bottom : 8px;
+}
+
+.textbox-f {
+  width : 370px;
+  height : 20px;
+  margin-bottom : 18px;
+}
+
+.agree-p {
+  margin-bottom : 20px;
+}
+
+.agree-button {
+  background-color : rgb(49, 49, 228);
+  color : white;
+  border : none;
+  border-radius : 30px;
+  padding-top : 12px;
+  padding-bottom : 12px;
+  padding-left : 135px;
+  padding-right : 150px;
+  font-size : 15px;
+
+}

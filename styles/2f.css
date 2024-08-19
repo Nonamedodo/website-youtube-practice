@@ -1,0 +1,39 @@
+.addtocart-button {
+  background-color : rgb(255, 216, 20);
+  color : black;
+  border : none;
+  width : 125px;
+  height : 30px;
+  border-radius : 20px;
+  cursor : pointer;
+  margin-right : 8px;
+}
+
+.buynow-button {
+  background-color : rgb(255, 164, 28);
+  color : black;
+  border : none;
+  width : 125px;
+  height : 30px;
+  border-radius : 20px;
+  cursor : pointer;
+}
+
+.backtoamazon-a {
+  color : rgb(0, 113, 133);
+}
+
+.nikeblackrunningshoes-p {
+  color : black;
+  font-weight : bold;
+  font-size : 24px;
+}
+
+.instock-p {
+  color : rgb(0, 118, 0);
+  font-weight : bold;
+}
+
+.freedeliverytomorrow-p {
+  color : black;
+}

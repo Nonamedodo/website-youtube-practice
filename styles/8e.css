@@ -1,0 +1,49 @@
+.request-p {
+  font-family : arial;
+  font-size : 30px;
+  margin-top : 0px;
+  margin-bottom : 20px;
+}
+
+.location-textbox {
+  background-color : rgb(240, 240, 240);
+  border : none;
+  display : block;
+  width : 280px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 14px;
+  margin-bottom : 5px;
+}
+
+.destination-textbox {
+  background-color : rgb(240, 240, 240);
+  border : none;
+  display : block;
+  width : 280px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 14px;
+  margin-bottom : 28px;
+}
+
+.request-button {
+  background-color: black;
+  border : none;
+  color : white;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 18px;
+  padding-right : 18px;
+  margin-right : 10px;
+}
+
+.schedule-button {
+  background-color: rgb(240, 240, 240);
+  color : black;
+  border : none;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 18px;
+  padding-right : 18px;
+}

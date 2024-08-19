@@ -1,0 +1,25 @@
+p {
+  color : white;
+  font-family : arial;
+  margin-top : 0px;
+  margin-bottom : 0px;
+}
+
+.youtube-div {
+  background-color : rgb(33, 33, 33);
+  width : 350px;
+  height : 90px;
+  padding-top : 20px;
+  padding-left : 15px;
+}
+
+.install-p {
+  font-weight : bold;
+  font-size : 20px;
+}
+
+.add-p {
+  margin-top : 10px;
+  font-size : 14px;
+  width : 320px;
+}

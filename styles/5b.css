@@ -1,0 +1,16 @@
+p {
+  font-family: arial;
+  margin-top : 0px;
+  margin-bottom : 0px;
+}
+.biggest-text {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom : 5px;
+}
+
+.sales-text {
+  color : red;
+  font-style : italic;
+  font-size : 17px;
+}

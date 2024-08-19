@@ -1,0 +1,39 @@
+.container {
+  background-color : gray;
+  position : fixed;
+  width : 320px;
+  height : 180px;
+  bottom : 15px;
+  right : 15px;
+}
+
+.button-container {
+  background-color: black;
+  color: white;
+  border : none;
+  width : 45px;
+  height : 45px;
+  border-radius : 25px;
+  font-family : arial;
+  font-size : 25px;
+  position : absolute;
+  top : -20px;
+  left : -20px;
+  justify-content: center;
+  align-items: center;
+  display : flex;
+}
+
+.timestamp {
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size : 14px;
+  padding-top : 3px;
+  padding-bottom : 3px;
+  padding-left : 4px;
+  padding-right : 4px;
+  position : absolute;
+  bottom : 5px;
+  right : 5px;
+}
