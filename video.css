@@ -1,0 +1,141 @@
+.thumbnail {
+  width : 100%;
+}
+
+.title-p {
+  margin-top : 0px;
+  margin-bottom : 0px;
+  font-size : 14px;
+  font-weight : 500;
+  line-height : 20px;
+  margin-bottom : 10px;
+}
+
+@media (min-width : 1000px) {
+  .title-p {
+    font-size : 16px;
+    line-height : 24px;
+  }
+
+  .author-p,
+  .stats-p {
+    font-size : 14px;
+  }
+}
+
+.title-link {
+  text-decoration : none;
+  color : black;
+}
+
+.author-p {
+  font-size : 12px;
+  color : rgb(96, 96, 96);
+  margin-bottom : 5px;
+}
+
+.stats-p {
+  font-size : 12px;
+  color : rgb(96, 96, 96);
+}
+
+.videoinfo-grid {
+  display : grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profilepicture-img {
+  width : 36px;
+  border-radius : 50px;
+}
+
+.profile-picture-container {
+  display : inline-block;
+  position : relative;
+}
+
+.channel-tooltip {
+  position : absolute;
+  background-color: white;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height : 75px;
+  column-gap: 10px;
+  padding-left : 15px;
+  border-radius : 8px;
+  box-shadow : 1px 1px 5px rgba(0, 0, 0, 0.5);
+  top : 45px;
+  opacity : 0;
+  transition : opacity 0.15s;
+  pointer-events: none;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+  opacity : 1;
+}
+
+.channel-tooltip-img {
+  width : 50px;
+  height : 50px;
+  object-fit: cover;
+  border-radius : 25px;
+}
+
+.channel-tooltip-name {
+  font-family : roboto,arial;
+  font-weight : bold;
+  width : 160px;
+  font-size : 16px;
+  margin-bottom : 4px;
+}
+
+.channel-tooltip-stat {
+  font-family : roboto,arial;
+  font-size : 14px;
+}
+
+.thumbnailrow-div {
+  margin-bottom : 8px;
+  position : relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position : absolute;
+  bottom : 8px;
+  right : 5px;
+  font-family : reboto,arial;
+  font-size : 12px;
+  font-weight : 500;
+  padding : 4px;
+  border-radius : 2px;
+}
+
+.video-grid {
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap : 16px;
+  row-gap : 40px;
+}
+
+@media (max-width : 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width : 751px) and (max-width : 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width : 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
