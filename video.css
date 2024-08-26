@@ -2,6 +2,7 @@
   width : 100%;
 }
 
+
 .title-p {
   margin-top : 0px;
   margin-bottom : 0px;
@@ -9,6 +10,8 @@
   font-weight : 500;
   line-height : 20px;
   margin-bottom : 10px;
+  width : 100%;
+  overflow : hidden;
 }
 
 @media (min-width : 1000px) {
@@ -26,6 +29,12 @@
 .title-link {
   text-decoration : none;
   color : black;
+  cursor : pointer;
+}
+
+.channel-link {
+  text-decoration : none;
+  color : inherit;
 }
 
 .author-p {
